@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "backpack",
-    "build": "backpack build"
+    "build": "backpack build",
+    "prestart": "backpack build",
+    "start": "node ./build/main.js"
   },
   "devDependencies": {
     "backpack-core": "^0.8.3"

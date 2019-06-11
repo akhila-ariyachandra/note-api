@@ -2,7 +2,7 @@
 import mongoose from "mongoose";
 
 // The database path
-const dbPath = null;
+const dbPath = process.env.DATABASE_URL;
 
 // Connect the database
 mongoose.connect(dbPath, {
